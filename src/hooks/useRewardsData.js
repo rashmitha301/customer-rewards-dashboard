@@ -28,15 +28,17 @@ export const useRewardsData = () => {
         ...enrichDate(item.purchaseDate)
       }));
       logger.info("Transactions processed successfully", transactions);
-      setRewardsData({transactions,
+      setRewardsData({
+        transactions,
         loading: false,
         errorMessage: null
       });
     } catch(error){
       logger.error("Error in useRewardsData hook", error);
-      setRewardsData({transactions:[],
-         loading: false, 
-           errorMessage: error?.message })
+      setRewardsData({
+          transactions:[],
+          loading: false, 
+          errorMessage: error.message })
         }
     };
     loadTransactions();

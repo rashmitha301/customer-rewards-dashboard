@@ -1,4 +1,5 @@
 import React, { useState, useMemo, useEffect } from "react";
+import PropTypes from "prop-types";
 import {
   Table, TableBody, TableCell, TableContainer,
   TableHead, TableRow, Paper, Typography
@@ -124,5 +125,23 @@ function CommonTable({ title, columns = [], data = [], keyField, rowsPerPage = 1
     </TableContainer>
   );
 }
+
+CommonTable.propTypes = {
+  title: PropTypes.string.isRequired,
+
+  columns: PropTypes.arrayOf(
+    PropTypes.shape({
+      field: PropTypes.string.isRequired,
+      header: PropTypes.string.isRequired,
+      isSortable: PropTypes.bool
+    })
+  ),
+
+  data: PropTypes.arrayOf(PropTypes.object),
+
+  keyField: PropTypes.func.isRequired,
+
+  rowsPerPage: PropTypes.number
+};
 
 export default React.memo(CommonTable);
