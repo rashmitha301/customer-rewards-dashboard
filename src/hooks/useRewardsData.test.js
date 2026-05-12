@@ -10,8 +10,8 @@ describe("useRewardsData", () => {
       {
         customerId: "C1",
         price: 120,
-        purchaseDate: "2026-05-10",
-      },
+        purchaseDate: "2026-05-10"
+      }
     ]);
 
     const { result } = renderHook(() => useRewardsData());
@@ -24,7 +24,7 @@ describe("useRewardsData", () => {
 
     expect(result.current.transactions[0]).toMatchObject({
       customerId: "C1",
-      price: 120,
+      price: 120
     });
   });
 });

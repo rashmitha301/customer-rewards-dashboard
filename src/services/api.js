@@ -1,11 +1,11 @@
-import logger from '../utils/logger';
+import logger from "../utils/logger";
 
 /**
  * Fetches transaction data
  */
 export const fetchTransactions = async () => {
   try {
-    const response = await fetch('/mock/transactions.json');
+    const response = await fetch("/mock/transactions.json");
 
     if (!response.ok) {
       const errorMsg = `API Error: ${response.status} ${response.statusText}`;
@@ -14,11 +14,10 @@ export const fetchTransactions = async () => {
     }
 
     const data = await response.json();
-    logger.info('Transactions fetched successfully');
+    logger.info("Transactions fetched successfully");
     return data;
-
   } catch (error) {
-    logger.error('Failed to fetch transactions', error);
+    logger.error("Failed to fetch transactions", error);
     throw error;
   }
 };

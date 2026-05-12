@@ -9,7 +9,7 @@ const logger = {
 
   error: (message, ...args) => {
     console.error(`[ERROR]: ${message}`, ...args);
-  },
+  }
 };
 
 export default logger;

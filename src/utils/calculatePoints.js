@@ -16,11 +16,11 @@
  * calculateRewardPoints(120);  // 90
  */
 export const calculateRewardPoints = (amount) => {
-  if(typeof amount !== 'number' || !Number.isFinite(amount)){
-    throw new Error(`Invalid amount: ${amount}`)
+  if (typeof amount !== "number" || !Number.isFinite(amount)) {
+    throw new Error(`Invalid amount: ${amount}`);
   }
   const amt = Math.floor(amount);
-  if(amt <= 50) return 0;
-  if(amt <=100) return amt - 50;
+  if (amt <= 50) return 0;
+  if (amt <= 100) return amt - 50;
   return 50 + (amt - 100) * 2;
 };

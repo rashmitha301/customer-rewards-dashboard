@@ -1,11 +1,6 @@
-import {
-  enrichDate,
-  getLast3MonthsRange,
-  formatDate
-} from "./dateUtils";
+import { enrichDate, getLast3MonthsRange, formatDate } from "./dateUtils";
 
 describe("dateUtils", () => {
-
   test("enrichDate should return month, year and sortKey", () => {
     const result = enrichDate("2024-03-15");
 
@@ -28,5 +23,4 @@ describe("dateUtils", () => {
 
     expect(result).toBe("2024-03-15");
   });
-
 });

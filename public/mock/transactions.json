@@ -1,225 +1,1624 @@
 [
-        { "transactionId":"T1","customerId": "C1", "customerName": "Rashmitha Lokam", "price": 120.5, "purchaseDate": "01-15-2024","product":"Bag" },
-        { "transactionId":"T2","customerId": "C2", "customerName": "Seshu Kette", "price": 75.3, "purchaseDate": "01-20-2024","product":"Mouse" },
-        { "transactionId":"T3","customerId": "C1", "customerName": "Rashmitha Lokam", "price": 200.9, "purchaseDate": "02-10-2024","product":"Lappy" },
-        { "transactionId":"T4","customerId": "C2", "customerName": "Seshu kette", "price": 50.1, "purchaseDate": "02-18-2024","product":"Charger" },
-        { "transactionId":"T5","customerId": "C1", "customerName": "Rashmitha Lokam", "price": 90.7, "purchaseDate": "03-05-2024","product":"Keyboard" },
-        { "transactionId":"T6","customerId": "C2", "customerName": "Seshu kette", "price": 130.4, "purchaseDate": "03-22-2024","product":"Mobile" },
-        { "transactionId":"T7","customerId": "C3", "customerName": "Lavanya Reddygari", "price": 100.4, "purchaseDate": "03-23-2023","product":"Mouse" },
-        { "transactionId":"T8","customerId": "C3", "customerName": "Lavanya Reddygari", "price": 500.4, "purchaseDate": "03-10-2024","product":"Bag" },
-        { "transactionId":"T9","customerId": "C4", "customerName": "Shreyansh K", "price": 200.44, "purchaseDate": "02-30-2021","product":"Bag" },
-        { "transactionId":"T10","customerId": "C5", "customerName": "Aadhya K", "price": 100.77, "purchaseDate": "01-15-2004","product":"Mobile" },
-        { "transactionId":"T11","customerId": "C6", "customerName": "Ravi L", "price": 200.64, "purchaseDate": "04-20-2026","product":"Keyboard" },
-        { "transactionId":"T12","customerId": "C7", "customerName": "Kusuma Ch", "price": 60.64, "purchaseDate": "05-25-2018","product":"Mouse" },
-        { "transactionId":"T13","customerId": "C4", "customerName": "Shreyansh K", "price": 100.64, "purchaseDate": "08-20-2024","product":"Keyboard" },
-        { "transactionId":"T14","customerId": "C5", "customerName": "Aadhya K", "price": 400.2, "purchaseDate": "06-25-2020","product":"Lappy" },
-        { "transactionId":"T15","customerId": "C5", "customerName": "Aadhya K", "price": 200.77, "purchaseDate": "08-02-2021","product":"Mobile" },
-        { "transactionId":"T16","customerId": "C6", "customerName": "Ravi L", "price": 120.4, "purchaseDate": "11-03-2019","product":"Mobile" },
-        { "transactionId":"T17","customerId": "C7", "customerName": "Kusuma Ch", "price": 800.4, "purchaseDate": "01-11-2020","product":"Bag" },
-        { "transactionId":"T18","customerId": "C7", "customerName": "Kusuma Ch", "price": 300.4, "purchaseDate": "02-16-2021","product":"Charger" },
-        { "transactionId":"T19","customerId": "C8", "customerName": "Kumari Gopi", "price": 180.99, "purchaseDate": "08-19-2015","product":"Bag" },
-        { "transactionId":"T20","customerId": "C9", "customerName": "Vasanthi Kunta", "price": 330.66, "purchaseDate": "03-11-2026","product":"Mouse" },
-        { "transactionId":"T21","customerId": "C10", "customerName": "Gayathri Nandam", "price": 550.04, "purchaseDate": "02-25-2026","product":"Charger" },
-        { "transactionId":"T22","customerId": "C8", "customerName": "Kumari Gopi", "price": 190.77, "purchaseDate": "07-17-2025","product":"Mobile" },
-        { "transactionId":"T23","customerId": "C11", "customerName": "Vamsi Yerra", "price": 310.77, "purchaseDate": "04-05-2026","product":"Mobile" },
-        { "transactionId":"T24","customerId": "C12", "customerName": "Shailu Bekkem", "price": 240.66, "purchaseDate": "03-11-2026","product":"Mouse" },
-        { "transactionId":"T25","customerId": "C13", "customerName": "Lally V", "price": 650.04, "purchaseDate": "02-25-2026","product":"Charger" },
-        { "transactionId":"T26","customerId": "C11", "customerName": "Vamsi Yerra", "price": 210.77, "purchaseDate": "05-05-2026","product":"Mobile" },
-        { "transactionId":"T27","customerId": "C12", "customerName": "Shailu Bekkem", "price": 340.66, "purchaseDate": "05-01-2026","product":"Mouse" },
-        { "transactionId":"T28","customerId": "C13", "customerName": "Lally V", "price": 150.04, "purchaseDate": "05-02-2026","product":"Charger" },
-        { "transactionId":"T29","customerId": "C11", "customerName": "Vamsi Yerra", "price": 410.77, "purchaseDate": "05-04-2026","product":"Mobile" },
-        { "transactionId":"T30","customerId": "C12", "customerName": "Shailu Bekkem", "price": 140.66, "purchaseDate": "04-29-2026","product":"Mouse" },
-        { "transactionId":"T31","customerId": "C13", "customerName": "Lally V", "price": 590.04, "purchaseDate": "04-30-2026","product":"Charger" },
-        { "transactionId":"T32","customerId": "C14", "customerName": "vikram Pellai", "price": 310.77, "purchaseDate": "04-04-2026","product":"Mobile" },
-        { "transactionId":"T33","customerId": "C15", "customerName": "Shalini Korapati", "price": 240.66, "purchaseDate": "03-19-2026","product":"Mouse" },
-  { "transactionId":"T34","customerId": "C16", "customerName": "Prasanthi Verma", "price": 650.04, "purchaseDate": "05-03-2026","product":"Charger" },
-  { "transactionId":"T35","customerId":"C35","customerName":"Anil Kumar","price":145.50,"purchaseDate":"05-01-2026","product":"Mouse" },
-  { "transactionId":"T36","customerId":"C36","customerName":"Bhavya Sri","price":320.75,"purchaseDate":"05-02-2026","product":"Mobile" },
-  { "transactionId":"T37","customerId":"C37","customerName":"Charan Tej","price":88.40,"purchaseDate":"05-03-2026","product":"Keyboard" },
-  { "transactionId":"T38","customerId":"C38","customerName":"Deepika Rao","price":540.25,"purchaseDate":"05-04-2026","product":"Lappy" },
-  { "transactionId":"T39","customerId":"C39","customerName":"Eswar Sai","price":120.99,"purchaseDate":"05-05-2026","product":"Bag" },
-  { "transactionId":"T40","customerId":"C40","customerName":"Farhana Shaik","price":65.50,"purchaseDate":"05-06-2026","product":"Charger" },
-  { "transactionId":"T41","customerId":"C41","customerName":"Ganesh Varma","price":230.40,"purchaseDate":"05-07-2026","product":"Mouse" },
-  { "transactionId":"T42","customerId":"C42","customerName":"Harika Devi","price":410.20,"purchaseDate":"05-08-2026","product":"Mobile" },
-  { "transactionId":"T43","customerId":"C43","customerName":"Indu Priya","price":190.75,"purchaseDate":"05-09-2026","product":"Keyboard" },
-  { "transactionId":"T44","customerId":"C44","customerName":"Jeevan Kumar","price":760.00,"purchaseDate":"05-10-2026","product":"Lappy" },
+  {
+    "transactionId": "T1",
+    "customerId": "C1",
+    "customerName": "Rashmitha Lokam",
+    "price": 120.5,
+    "purchaseDate": "01-15-2024",
+    "product": "Bag"
+  },
+  {
+    "transactionId": "T2",
+    "customerId": "C2",
+    "customerName": "Seshu Kette",
+    "price": 75.3,
+    "purchaseDate": "01-20-2024",
+    "product": "Mouse"
+  },
+  {
+    "transactionId": "T3",
+    "customerId": "C1",
+    "customerName": "Rashmitha Lokam",
+    "price": 200.9,
+    "purchaseDate": "02-10-2024",
+    "product": "Lappy"
+  },
+  {
+    "transactionId": "T4",
+    "customerId": "C2",
+    "customerName": "Seshu kette",
+    "price": 50.1,
+    "purchaseDate": "02-18-2024",
+    "product": "Charger"
+  },
+  {
+    "transactionId": "T5",
+    "customerId": "C1",
+    "customerName": "Rashmitha Lokam",
+    "price": 90.7,
+    "purchaseDate": "03-05-2024",
+    "product": "Keyboard"
+  },
+  {
+    "transactionId": "T6",
+    "customerId": "C2",
+    "customerName": "Seshu kette",
+    "price": 130.4,
+    "purchaseDate": "03-22-2024",
+    "product": "Mobile"
+  },
+  {
+    "transactionId": "T7",
+    "customerId": "C3",
+    "customerName": "Lavanya Reddygari",
+    "price": 100.4,
+    "purchaseDate": "03-23-2023",
+    "product": "Mouse"
+  },
+  {
+    "transactionId": "T8",
+    "customerId": "C3",
+    "customerName": "Lavanya Reddygari",
+    "price": 500.4,
+    "purchaseDate": "03-10-2024",
+    "product": "Bag"
+  },
+  {
+    "transactionId": "T9",
+    "customerId": "C4",
+    "customerName": "Shreyansh K",
+    "price": 200.44,
+    "purchaseDate": "02-30-2021",
+    "product": "Bag"
+  },
+  {
+    "transactionId": "T10",
+    "customerId": "C5",
+    "customerName": "Aadhya K",
+    "price": 100.77,
+    "purchaseDate": "01-15-2004",
+    "product": "Mobile"
+  },
+  {
+    "transactionId": "T11",
+    "customerId": "C6",
+    "customerName": "Ravi L",
+    "price": 200.64,
+    "purchaseDate": "04-20-2026",
+    "product": "Keyboard"
+  },
+  {
+    "transactionId": "T12",
+    "customerId": "C7",
+    "customerName": "Kusuma Ch",
+    "price": 60.64,
+    "purchaseDate": "05-25-2018",
+    "product": "Mouse"
+  },
+  {
+    "transactionId": "T13",
+    "customerId": "C4",
+    "customerName": "Shreyansh K",
+    "price": 100.64,
+    "purchaseDate": "08-20-2024",
+    "product": "Keyboard"
+  },
+  {
+    "transactionId": "T14",
+    "customerId": "C5",
+    "customerName": "Aadhya K",
+    "price": 400.2,
+    "purchaseDate": "06-25-2020",
+    "product": "Lappy"
+  },
+  {
+    "transactionId": "T15",
+    "customerId": "C5",
+    "customerName": "Aadhya K",
+    "price": 200.77,
+    "purchaseDate": "08-02-2021",
+    "product": "Mobile"
+  },
+  {
+    "transactionId": "T16",
+    "customerId": "C6",
+    "customerName": "Ravi L",
+    "price": 120.4,
+    "purchaseDate": "11-03-2019",
+    "product": "Mobile"
+  },
+  {
+    "transactionId": "T17",
+    "customerId": "C7",
+    "customerName": "Kusuma Ch",
+    "price": 800.4,
+    "purchaseDate": "01-11-2020",
+    "product": "Bag"
+  },
+  {
+    "transactionId": "T18",
+    "customerId": "C7",
+    "customerName": "Kusuma Ch",
+    "price": 300.4,
+    "purchaseDate": "02-16-2021",
+    "product": "Charger"
+  },
+  {
+    "transactionId": "T19",
+    "customerId": "C8",
+    "customerName": "Kumari Gopi",
+    "price": 180.99,
+    "purchaseDate": "08-19-2015",
+    "product": "Bag"
+  },
+  {
+    "transactionId": "T20",
+    "customerId": "C9",
+    "customerName": "Vasanthi Kunta",
+    "price": 330.66,
+    "purchaseDate": "03-11-2026",
+    "product": "Mouse"
+  },
+  {
+    "transactionId": "T21",
+    "customerId": "C10",
+    "customerName": "Gayathri Nandam",
+    "price": 550.04,
+    "purchaseDate": "02-25-2026",
+    "product": "Charger"
+  },
+  {
+    "transactionId": "T22",
+    "customerId": "C8",
+    "customerName": "Kumari Gopi",
+    "price": 190.77,
+    "purchaseDate": "07-17-2025",
+    "product": "Mobile"
+  },
+  {
+    "transactionId": "T23",
+    "customerId": "C11",
+    "customerName": "Vamsi Yerra",
+    "price": 310.77,
+    "purchaseDate": "04-05-2026",
+    "product": "Mobile"
+  },
+  {
+    "transactionId": "T24",
+    "customerId": "C12",
+    "customerName": "Shailu Bekkem",
+    "price": 240.66,
+    "purchaseDate": "03-11-2026",
+    "product": "Mouse"
+  },
+  {
+    "transactionId": "T25",
+    "customerId": "C13",
+    "customerName": "Lally V",
+    "price": 650.04,
+    "purchaseDate": "02-25-2026",
+    "product": "Charger"
+  },
+  {
+    "transactionId": "T26",
+    "customerId": "C11",
+    "customerName": "Vamsi Yerra",
+    "price": 210.77,
+    "purchaseDate": "05-05-2026",
+    "product": "Mobile"
+  },
+  {
+    "transactionId": "T27",
+    "customerId": "C12",
+    "customerName": "Shailu Bekkem",
+    "price": 340.66,
+    "purchaseDate": "05-01-2026",
+    "product": "Mouse"
+  },
+  {
+    "transactionId": "T28",
+    "customerId": "C13",
+    "customerName": "Lally V",
+    "price": 150.04,
+    "purchaseDate": "05-02-2026",
+    "product": "Charger"
+  },
+  {
+    "transactionId": "T29",
+    "customerId": "C11",
+    "customerName": "Vamsi Yerra",
+    "price": 410.77,
+    "purchaseDate": "05-04-2026",
+    "product": "Mobile"
+  },
+  {
+    "transactionId": "T30",
+    "customerId": "C12",
+    "customerName": "Shailu Bekkem",
+    "price": 140.66,
+    "purchaseDate": "04-29-2026",
+    "product": "Mouse"
+  },
+  {
+    "transactionId": "T31",
+    "customerId": "C13",
+    "customerName": "Lally V",
+    "price": 590.04,
+    "purchaseDate": "04-30-2026",
+    "product": "Charger"
+  },
+  {
+    "transactionId": "T32",
+    "customerId": "C14",
+    "customerName": "vikram Pellai",
+    "price": 310.77,
+    "purchaseDate": "04-04-2026",
+    "product": "Mobile"
+  },
+  {
+    "transactionId": "T33",
+    "customerId": "C15",
+    "customerName": "Shalini Korapati",
+    "price": 240.66,
+    "purchaseDate": "03-19-2026",
+    "product": "Mouse"
+  },
+  {
+    "transactionId": "T34",
+    "customerId": "C16",
+    "customerName": "Prasanthi Verma",
+    "price": 650.04,
+    "purchaseDate": "05-03-2026",
+    "product": "Charger"
+  },
+  {
+    "transactionId": "T35",
+    "customerId": "C35",
+    "customerName": "Anil Kumar",
+    "price": 145.5,
+    "purchaseDate": "05-01-2026",
+    "product": "Mouse"
+  },
+  {
+    "transactionId": "T36",
+    "customerId": "C36",
+    "customerName": "Bhavya Sri",
+    "price": 320.75,
+    "purchaseDate": "05-02-2026",
+    "product": "Mobile"
+  },
+  {
+    "transactionId": "T37",
+    "customerId": "C37",
+    "customerName": "Charan Tej",
+    "price": 88.4,
+    "purchaseDate": "05-03-2026",
+    "product": "Keyboard"
+  },
+  {
+    "transactionId": "T38",
+    "customerId": "C38",
+    "customerName": "Deepika Rao",
+    "price": 540.25,
+    "purchaseDate": "05-04-2026",
+    "product": "Lappy"
+  },
+  {
+    "transactionId": "T39",
+    "customerId": "C39",
+    "customerName": "Eswar Sai",
+    "price": 120.99,
+    "purchaseDate": "05-05-2026",
+    "product": "Bag"
+  },
+  {
+    "transactionId": "T40",
+    "customerId": "C40",
+    "customerName": "Farhana Shaik",
+    "price": 65.5,
+    "purchaseDate": "05-06-2026",
+    "product": "Charger"
+  },
+  {
+    "transactionId": "T41",
+    "customerId": "C41",
+    "customerName": "Ganesh Varma",
+    "price": 230.4,
+    "purchaseDate": "05-07-2026",
+    "product": "Mouse"
+  },
+  {
+    "transactionId": "T42",
+    "customerId": "C42",
+    "customerName": "Harika Devi",
+    "price": 410.2,
+    "purchaseDate": "05-08-2026",
+    "product": "Mobile"
+  },
+  {
+    "transactionId": "T43",
+    "customerId": "C43",
+    "customerName": "Indu Priya",
+    "price": 190.75,
+    "purchaseDate": "05-09-2026",
+    "product": "Keyboard"
+  },
+  {
+    "transactionId": "T44",
+    "customerId": "C44",
+    "customerName": "Jeevan Kumar",
+    "price": 760.0,
+    "purchaseDate": "05-10-2026",
+    "product": "Lappy"
+  },
 
-  { "transactionId":"T45","customerId":"C45","customerName":"Kavya Sri","price":130.60,"purchaseDate":"05-11-2026","product":"Bag" },
-  { "transactionId":"T46","customerId":"C46","customerName":"Lokesh Reddy","price":95.99,"purchaseDate":"05-12-2026","product":"Charger" },
-  { "transactionId":"T47","customerId":"C47","customerName":"Madhuri N","price":250.45,"purchaseDate":"05-13-2026","product":"Mouse" },
-  { "transactionId":"T48","customerId":"C48","customerName":"Naveen Sai","price":340.25,"purchaseDate":"05-14-2026","product":"Mobile" },
-  { "transactionId":"T49","customerId":"C49","customerName":"Oviya Lakshmi","price":180.30,"purchaseDate":"05-15-2026","product":"Keyboard" },
-  { "transactionId":"T50","customerId":"C50","customerName":"Prudhvi Raj","price":890.50,"purchaseDate":"05-16-2026","product":"Lappy" },
+  {
+    "transactionId": "T45",
+    "customerId": "C45",
+    "customerName": "Kavya Sri",
+    "price": 130.6,
+    "purchaseDate": "05-11-2026",
+    "product": "Bag"
+  },
+  {
+    "transactionId": "T46",
+    "customerId": "C46",
+    "customerName": "Lokesh Reddy",
+    "price": 95.99,
+    "purchaseDate": "05-12-2026",
+    "product": "Charger"
+  },
+  {
+    "transactionId": "T47",
+    "customerId": "C47",
+    "customerName": "Madhuri N",
+    "price": 250.45,
+    "purchaseDate": "05-13-2026",
+    "product": "Mouse"
+  },
+  {
+    "transactionId": "T48",
+    "customerId": "C48",
+    "customerName": "Naveen Sai",
+    "price": 340.25,
+    "purchaseDate": "05-14-2026",
+    "product": "Mobile"
+  },
+  {
+    "transactionId": "T49",
+    "customerId": "C49",
+    "customerName": "Oviya Lakshmi",
+    "price": 180.3,
+    "purchaseDate": "05-15-2026",
+    "product": "Keyboard"
+  },
+  {
+    "transactionId": "T50",
+    "customerId": "C50",
+    "customerName": "Prudhvi Raj",
+    "price": 890.5,
+    "purchaseDate": "05-16-2026",
+    "product": "Lappy"
+  },
 
-  { "transactionId":"T51","customerId":"C51","customerName":"Quresh Ali","price":145.80,"purchaseDate":"05-17-2026","product":"Bag" },
-  { "transactionId":"T52","customerId":"C52","customerName":"Rithika Sharma","price":78.90,"purchaseDate":"05-18-2026","product":"Charger" },
-  { "transactionId":"T53","customerId":"C53","customerName":"Sandeep Varma","price":265.40,"purchaseDate":"05-19-2026","product":"Mouse" },
-  { "transactionId":"T54","customerId":"C54","customerName":"Tejaswini P","price":470.99,"purchaseDate":"05-20-2026","product":"Mobile" },
-  { "transactionId":"T55","customerId":"C55","customerName":"Uday Kumar","price":210.65,"purchaseDate":"05-21-2026","product":"Keyboard" },
-  { "transactionId":"T56","customerId":"C56","customerName":"Vaishnavi T","price":640.10,"purchaseDate":"05-22-2026","product":"Lappy" },
+  {
+    "transactionId": "T51",
+    "customerId": "C51",
+    "customerName": "Quresh Ali",
+    "price": 145.8,
+    "purchaseDate": "05-17-2026",
+    "product": "Bag"
+  },
+  {
+    "transactionId": "T52",
+    "customerId": "C52",
+    "customerName": "Rithika Sharma",
+    "price": 78.9,
+    "purchaseDate": "05-18-2026",
+    "product": "Charger"
+  },
+  {
+    "transactionId": "T53",
+    "customerId": "C53",
+    "customerName": "Sandeep Varma",
+    "price": 265.4,
+    "purchaseDate": "05-19-2026",
+    "product": "Mouse"
+  },
+  {
+    "transactionId": "T54",
+    "customerId": "C54",
+    "customerName": "Tejaswini P",
+    "price": 470.99,
+    "purchaseDate": "05-20-2026",
+    "product": "Mobile"
+  },
+  {
+    "transactionId": "T55",
+    "customerId": "C55",
+    "customerName": "Uday Kumar",
+    "price": 210.65,
+    "purchaseDate": "05-21-2026",
+    "product": "Keyboard"
+  },
+  {
+    "transactionId": "T56",
+    "customerId": "C56",
+    "customerName": "Vaishnavi T",
+    "price": 640.1,
+    "purchaseDate": "05-22-2026",
+    "product": "Lappy"
+  },
 
-  { "transactionId":"T57","customerId":"C57","customerName":"Wasim Khan","price":160.75,"purchaseDate":"05-23-2026","product":"Bag" },
-  { "transactionId":"T58","customerId":"C58","customerName":"Xavier Paul","price":82.30,"purchaseDate":"05-24-2026","product":"Charger" },
-  { "transactionId":"T59","customerId":"C59","customerName":"Yamini Devi","price":310.55,"purchaseDate":"05-25-2026","product":"Mouse" },
-  { "transactionId":"T60","customerId":"C11","customerName":"Vamsi Yerra","price":185.45,"purchaseDate":"05-27-2026","product":"Keyboard" },
-{ "transactionId":"T61","customerId":"C12","customerName":"Shailu Bekkem","price":620.75,"purchaseDate":"05-28-2026","product":"Lappy" },
-{ "transactionId":"T62","customerId":"C13","customerName":"Lally V","price":95.20,"purchaseDate":"05-29-2026","product":"Bag" },
-{ "transactionId":"T63","customerId":"C14","customerName":"Vikram Pellai","price":75.99,"purchaseDate":"05-30-2026","product":"Charger" },
-{ "transactionId":"T64","customerId":"C15","customerName":"Shalini Korapati","price":255.40,"purchaseDate":"05-31-2026","product":"Mouse" },
-{ "transactionId":"T65","customerId":"C16","customerName":"Prasanthi Verma","price":410.60,"purchaseDate":"06-01-2026","product":"Mobile" },
+  {
+    "transactionId": "T57",
+    "customerId": "C57",
+    "customerName": "Wasim Khan",
+    "price": 160.75,
+    "purchaseDate": "05-23-2026",
+    "product": "Bag"
+  },
+  {
+    "transactionId": "T58",
+    "customerId": "C58",
+    "customerName": "Xavier Paul",
+    "price": 82.3,
+    "purchaseDate": "05-24-2026",
+    "product": "Charger"
+  },
+  {
+    "transactionId": "T59",
+    "customerId": "C59",
+    "customerName": "Yamini Devi",
+    "price": 310.55,
+    "purchaseDate": "05-25-2026",
+    "product": "Mouse"
+  },
+  {
+    "transactionId": "T60",
+    "customerId": "C11",
+    "customerName": "Vamsi Yerra",
+    "price": 185.45,
+    "purchaseDate": "05-27-2026",
+    "product": "Keyboard"
+  },
+  {
+    "transactionId": "T61",
+    "customerId": "C12",
+    "customerName": "Shailu Bekkem",
+    "price": 620.75,
+    "purchaseDate": "05-28-2026",
+    "product": "Lappy"
+  },
+  {
+    "transactionId": "T62",
+    "customerId": "C13",
+    "customerName": "Lally V",
+    "price": 95.2,
+    "purchaseDate": "05-29-2026",
+    "product": "Bag"
+  },
+  {
+    "transactionId": "T63",
+    "customerId": "C14",
+    "customerName": "Vikram Pellai",
+    "price": 75.99,
+    "purchaseDate": "05-30-2026",
+    "product": "Charger"
+  },
+  {
+    "transactionId": "T64",
+    "customerId": "C15",
+    "customerName": "Shalini Korapati",
+    "price": 255.4,
+    "purchaseDate": "05-31-2026",
+    "product": "Mouse"
+  },
+  {
+    "transactionId": "T65",
+    "customerId": "C16",
+    "customerName": "Prasanthi Verma",
+    "price": 410.6,
+    "purchaseDate": "06-01-2026",
+    "product": "Mobile"
+  },
 
-{ "transactionId":"T66","customerId":"C1","customerName":"Rashmitha Lokam","price":170.35,"purchaseDate":"06-02-2026","product":"Keyboard" },
-{ "transactionId":"T67","customerId":"C2","customerName":"Seshu Kette","price":710.90,"purchaseDate":"06-03-2026","product":"Lappy" },
-{ "transactionId":"T68","customerId":"C3","customerName":"Lavanya Reddygari","price":140.10,"purchaseDate":"06-04-2026","product":"Bag" },
-{ "transactionId":"T69","customerId":"C4","customerName":"Shreyansh K","price":65.45,"purchaseDate":"06-05-2026","product":"Charger" },
-{ "transactionId":"T70","customerId":"C5","customerName":"Aadhya K","price":280.99,"purchaseDate":"06-06-2026","product":"Mouse" },
-{ "transactionId":"T71","customerId":"C6","customerName":"Ravi L","price":390.25,"purchaseDate":"06-07-2026","product":"Mobile" },
+  {
+    "transactionId": "T66",
+    "customerId": "C1",
+    "customerName": "Rashmitha Lokam",
+    "price": 170.35,
+    "purchaseDate": "06-02-2026",
+    "product": "Keyboard"
+  },
+  {
+    "transactionId": "T67",
+    "customerId": "C2",
+    "customerName": "Seshu Kette",
+    "price": 710.9,
+    "purchaseDate": "06-03-2026",
+    "product": "Lappy"
+  },
+  {
+    "transactionId": "T68",
+    "customerId": "C3",
+    "customerName": "Lavanya Reddygari",
+    "price": 140.1,
+    "purchaseDate": "06-04-2026",
+    "product": "Bag"
+  },
+  {
+    "transactionId": "T69",
+    "customerId": "C4",
+    "customerName": "Shreyansh K",
+    "price": 65.45,
+    "purchaseDate": "06-05-2026",
+    "product": "Charger"
+  },
+  {
+    "transactionId": "T70",
+    "customerId": "C5",
+    "customerName": "Aadhya K",
+    "price": 280.99,
+    "purchaseDate": "06-06-2026",
+    "product": "Mouse"
+  },
+  {
+    "transactionId": "T71",
+    "customerId": "C6",
+    "customerName": "Ravi L",
+    "price": 390.25,
+    "purchaseDate": "06-07-2026",
+    "product": "Mobile"
+  },
 
-{ "transactionId":"T72","customerId":"C7","customerName":"Kusuma Ch","price":155.75,"purchaseDate":"06-08-2026","product":"Keyboard" },
-{ "transactionId":"T73","customerId":"C8","customerName":"Kumari Gopi","price":540.80,"purchaseDate":"06-09-2026","product":"Lappy" },
-{ "transactionId":"T74","customerId":"C9","customerName":"Vasanthi Kunta","price":125.60,"purchaseDate":"06-10-2026","product":"Bag" },
-{ "transactionId":"T75","customerId":"C10","customerName":"Gayathri Nandam","price":88.45,"purchaseDate":"06-11-2026","product":"Charger" },
-{ "transactionId":"T76","customerId":"C17","customerName":"Anil Kumar","price":245.45,"purchaseDate":"06-12-2026","product":"Mouse" },
-{ "transactionId":"T77","customerId":"C18","customerName":"Bhavya Sri","price":520.75,"purchaseDate":"06-13-2026","product":"Mobile" },
-{ "transactionId":"T78","customerId":"C19","customerName":"Charan Tej","price":135.20,"purchaseDate":"06-14-2026","product":"Keyboard" },
-{ "transactionId":"T79","customerId":"C20","customerName":"Deepika Rao","price":799.99,"purchaseDate":"06-15-2026","product":"Lappy" },
-{ "transactionId":"T80","customerId":"C21","customerName":"Eswar Sai","price":185.60,"purchaseDate":"06-16-2026","product":"Bag" },
-{ "transactionId":"T81","customerId":"C22","customerName":"Farhana Shaik","price":92.40,"purchaseDate":"06-17-2026","product":"Charger" },
+  {
+    "transactionId": "T72",
+    "customerId": "C7",
+    "customerName": "Kusuma Ch",
+    "price": 155.75,
+    "purchaseDate": "06-08-2026",
+    "product": "Keyboard"
+  },
+  {
+    "transactionId": "T73",
+    "customerId": "C8",
+    "customerName": "Kumari Gopi",
+    "price": 540.8,
+    "purchaseDate": "06-09-2026",
+    "product": "Lappy"
+  },
+  {
+    "transactionId": "T74",
+    "customerId": "C9",
+    "customerName": "Vasanthi Kunta",
+    "price": 125.6,
+    "purchaseDate": "06-10-2026",
+    "product": "Bag"
+  },
+  {
+    "transactionId": "T75",
+    "customerId": "C10",
+    "customerName": "Gayathri Nandam",
+    "price": 88.45,
+    "purchaseDate": "06-11-2026",
+    "product": "Charger"
+  },
+  {
+    "transactionId": "T76",
+    "customerId": "C17",
+    "customerName": "Anil Kumar",
+    "price": 245.45,
+    "purchaseDate": "06-12-2026",
+    "product": "Mouse"
+  },
+  {
+    "transactionId": "T77",
+    "customerId": "C18",
+    "customerName": "Bhavya Sri",
+    "price": 520.75,
+    "purchaseDate": "06-13-2026",
+    "product": "Mobile"
+  },
+  {
+    "transactionId": "T78",
+    "customerId": "C19",
+    "customerName": "Charan Tej",
+    "price": 135.2,
+    "purchaseDate": "06-14-2026",
+    "product": "Keyboard"
+  },
+  {
+    "transactionId": "T79",
+    "customerId": "C20",
+    "customerName": "Deepika Rao",
+    "price": 799.99,
+    "purchaseDate": "06-15-2026",
+    "product": "Lappy"
+  },
+  {
+    "transactionId": "T80",
+    "customerId": "C21",
+    "customerName": "Eswar Sai",
+    "price": 185.6,
+    "purchaseDate": "06-16-2026",
+    "product": "Bag"
+  },
+  {
+    "transactionId": "T81",
+    "customerId": "C22",
+    "customerName": "Farhana Shaik",
+    "price": 92.4,
+    "purchaseDate": "06-17-2026",
+    "product": "Charger"
+  },
 
-{ "transactionId":"T82","customerId":"C23","customerName":"Ganesh Varma","price":310.50,"purchaseDate":"06-18-2026","product":"Mouse" },
-{ "transactionId":"T83","customerId":"C24","customerName":"Harika Devi","price":455.80,"purchaseDate":"06-19-2026","product":"Mobile" },
-{ "transactionId":"T84","customerId":"C25","customerName":"Indu Priya","price":175.90,"purchaseDate":"06-20-2026","product":"Keyboard" },
-{ "transactionId":"T85","customerId":"C26","customerName":"Jeevan Kumar","price":680.25,"purchaseDate":"06-21-2026","product":"Lappy" },
-{ "transactionId":"T86","customerId":"C27","customerName":"Kavya Sri","price":210.75,"purchaseDate":"06-22-2026","product":"Bag" },
-{ "transactionId":"T87","customerId":"C28","customerName":"Lokesh Reddy","price":78.55,"purchaseDate":"06-23-2026","product":"Charger" },
+  {
+    "transactionId": "T82",
+    "customerId": "C23",
+    "customerName": "Ganesh Varma",
+    "price": 310.5,
+    "purchaseDate": "06-18-2026",
+    "product": "Mouse"
+  },
+  {
+    "transactionId": "T83",
+    "customerId": "C24",
+    "customerName": "Harika Devi",
+    "price": 455.8,
+    "purchaseDate": "06-19-2026",
+    "product": "Mobile"
+  },
+  {
+    "transactionId": "T84",
+    "customerId": "C25",
+    "customerName": "Indu Priya",
+    "price": 175.9,
+    "purchaseDate": "06-20-2026",
+    "product": "Keyboard"
+  },
+  {
+    "transactionId": "T85",
+    "customerId": "C26",
+    "customerName": "Jeevan Kumar",
+    "price": 680.25,
+    "purchaseDate": "06-21-2026",
+    "product": "Lappy"
+  },
+  {
+    "transactionId": "T86",
+    "customerId": "C27",
+    "customerName": "Kavya Sri",
+    "price": 210.75,
+    "purchaseDate": "06-22-2026",
+    "product": "Bag"
+  },
+  {
+    "transactionId": "T87",
+    "customerId": "C28",
+    "customerName": "Lokesh Reddy",
+    "price": 78.55,
+    "purchaseDate": "06-23-2026",
+    "product": "Charger"
+  },
 
-{ "transactionId":"T88","customerId":"C29","customerName":"Madhuri N","price":295.60,"purchaseDate":"06-24-2026","product":"Mouse" },
-{ "transactionId":"T89","customerId":"C30","customerName":"Naveen Sai","price":390.40,"purchaseDate":"06-25-2026","product":"Mobile" },
-{ "transactionId":"T90","customerId":"C31","customerName":"Oviya Lakshmi","price":145.75,"purchaseDate":"06-26-2026","product":"Keyboard" },
-{ "transactionId":"T91","customerId":"C32","customerName":"Prudhvi Raj","price":850.90,"purchaseDate":"06-27-2026","product":"Lappy" },
-{ "transactionId":"T92","customerId":"C33","customerName":"Quresh Ali","price":165.45,"purchaseDate":"06-28-2026","product":"Bag" },
-{ "transactionId":"T93","customerId":"C34","customerName":"Rithika Sharma","price":88.30,"purchaseDate":"06-29-2026","product":"Charger" },
-{ "transactionId":"T94","customerId":"C35","customerName":"Anvesh Rao","price":245.50,"purchaseDate":"07-01-2026","product":"Mouse" },
-{ "transactionId":"T95","customerId":"C36","customerName":"Bindu Priya","price":520.80,"purchaseDate":"07-02-2026","product":"Mobile" },
-{ "transactionId":"T96","customerId":"C5","customerName":"Aadhya K","price":185.25,"purchaseDate":"07-03-2026","product":"Keyboard" },
-{ "transactionId":"T97","customerId":"C37","customerName":"Chaitanya R","price":760.90,"purchaseDate":"07-04-2026","product":"Lappy" },
-{ "transactionId":"T98","customerId":"C12","customerName":"Shailu Bekkem","price":95.40,"purchaseDate":"07-05-2026","product":"Bag" },
-{ "transactionId":"T99","customerId":"C38","customerName":"Dharani K","price":88.75,"purchaseDate":"07-06-2026","product":"Charger" },
+  {
+    "transactionId": "T88",
+    "customerId": "C29",
+    "customerName": "Madhuri N",
+    "price": 295.6,
+    "purchaseDate": "06-24-2026",
+    "product": "Mouse"
+  },
+  {
+    "transactionId": "T89",
+    "customerId": "C30",
+    "customerName": "Naveen Sai",
+    "price": 390.4,
+    "purchaseDate": "06-25-2026",
+    "product": "Mobile"
+  },
+  {
+    "transactionId": "T90",
+    "customerId": "C31",
+    "customerName": "Oviya Lakshmi",
+    "price": 145.75,
+    "purchaseDate": "06-26-2026",
+    "product": "Keyboard"
+  },
+  {
+    "transactionId": "T91",
+    "customerId": "C32",
+    "customerName": "Prudhvi Raj",
+    "price": 850.9,
+    "purchaseDate": "06-27-2026",
+    "product": "Lappy"
+  },
+  {
+    "transactionId": "T92",
+    "customerId": "C33",
+    "customerName": "Quresh Ali",
+    "price": 165.45,
+    "purchaseDate": "06-28-2026",
+    "product": "Bag"
+  },
+  {
+    "transactionId": "T93",
+    "customerId": "C34",
+    "customerName": "Rithika Sharma",
+    "price": 88.3,
+    "purchaseDate": "06-29-2026",
+    "product": "Charger"
+  },
+  {
+    "transactionId": "T94",
+    "customerId": "C35",
+    "customerName": "Anvesh Rao",
+    "price": 245.5,
+    "purchaseDate": "07-01-2026",
+    "product": "Mouse"
+  },
+  {
+    "transactionId": "T95",
+    "customerId": "C36",
+    "customerName": "Bindu Priya",
+    "price": 520.8,
+    "purchaseDate": "07-02-2026",
+    "product": "Mobile"
+  },
+  {
+    "transactionId": "T96",
+    "customerId": "C5",
+    "customerName": "Aadhya K",
+    "price": 185.25,
+    "purchaseDate": "07-03-2026",
+    "product": "Keyboard"
+  },
+  {
+    "transactionId": "T97",
+    "customerId": "C37",
+    "customerName": "Chaitanya R",
+    "price": 760.9,
+    "purchaseDate": "07-04-2026",
+    "product": "Lappy"
+  },
+  {
+    "transactionId": "T98",
+    "customerId": "C12",
+    "customerName": "Shailu Bekkem",
+    "price": 95.4,
+    "purchaseDate": "07-05-2026",
+    "product": "Bag"
+  },
+  {
+    "transactionId": "T99",
+    "customerId": "C38",
+    "customerName": "Dharani K",
+    "price": 88.75,
+    "purchaseDate": "07-06-2026",
+    "product": "Charger"
+  },
 
-{ "transactionId":"T100","customerId":"C39","customerName":"Eshwar Teja","price":310.55,"purchaseDate":"07-07-2026","product":"Mouse" },
-{ "transactionId":"T101","customerId":"C2","customerName":"Seshu Kette","price":470.45,"purchaseDate":"07-08-2026","product":"Mobile" },
-{ "transactionId":"T102","customerId":"C40","customerName":"Fathima Noor","price":220.30,"purchaseDate":"07-09-2026","product":"Keyboard" },
-{ "transactionId":"T103","customerId":"C41","customerName":"Gokul Sai","price":845.10,"purchaseDate":"07-10-2026","product":"Lappy" },
-{ "transactionId":"T104","customerId":"C1","customerName":"Rashmitha Lokam","price":120.50,"purchaseDate":"07-11-2026","product":"Bag" },
-{ "transactionId":"T105","customerId":"C42","customerName":"Hemanth Varma","price":66.90,"purchaseDate":"07-12-2026","product":"Charger" },
+  {
+    "transactionId": "T100",
+    "customerId": "C39",
+    "customerName": "Eshwar Teja",
+    "price": 310.55,
+    "purchaseDate": "07-07-2026",
+    "product": "Mouse"
+  },
+  {
+    "transactionId": "T101",
+    "customerId": "C2",
+    "customerName": "Seshu Kette",
+    "price": 470.45,
+    "purchaseDate": "07-08-2026",
+    "product": "Mobile"
+  },
+  {
+    "transactionId": "T102",
+    "customerId": "C40",
+    "customerName": "Fathima Noor",
+    "price": 220.3,
+    "purchaseDate": "07-09-2026",
+    "product": "Keyboard"
+  },
+  {
+    "transactionId": "T103",
+    "customerId": "C41",
+    "customerName": "Gokul Sai",
+    "price": 845.1,
+    "purchaseDate": "07-10-2026",
+    "product": "Lappy"
+  },
+  {
+    "transactionId": "T104",
+    "customerId": "C1",
+    "customerName": "Rashmitha Lokam",
+    "price": 120.5,
+    "purchaseDate": "07-11-2026",
+    "product": "Bag"
+  },
+  {
+    "transactionId": "T105",
+    "customerId": "C42",
+    "customerName": "Hemanth Varma",
+    "price": 66.9,
+    "purchaseDate": "07-12-2026",
+    "product": "Charger"
+  },
 
-{ "transactionId":"T106","customerId":"C43","customerName":"Ishitha Reddy","price":295.40,"purchaseDate":"07-13-2026","product":"Mouse" },
-{ "transactionId":"T107","customerId":"C7","customerName":"Kusuma Ch","price":540.75,"purchaseDate":"07-14-2026","product":"Mobile" },
-{ "transactionId":"T108","customerId":"C44","customerName":"Jahnavi Sri","price":210.60,"purchaseDate":"07-15-2026","product":"Keyboard" },
-{ "transactionId":"T109","customerId":"C45","customerName":"Karthikeya P","price":690.99,"purchaseDate":"07-16-2026","product":"Lappy" },
-{ "transactionId":"T110","customerId":"C10","customerName":"Gayathri Nandam","price":145.80,"purchaseDate":"07-17-2026","product":"Bag" },
-{ "transactionId":"T111","customerId":"C46","customerName":"Likitha Devi","price":72.45,"purchaseDate":"07-18-2026","product":"Charger" },
+  {
+    "transactionId": "T106",
+    "customerId": "C43",
+    "customerName": "Ishitha Reddy",
+    "price": 295.4,
+    "purchaseDate": "07-13-2026",
+    "product": "Mouse"
+  },
+  {
+    "transactionId": "T107",
+    "customerId": "C7",
+    "customerName": "Kusuma Ch",
+    "price": 540.75,
+    "purchaseDate": "07-14-2026",
+    "product": "Mobile"
+  },
+  {
+    "transactionId": "T108",
+    "customerId": "C44",
+    "customerName": "Jahnavi Sri",
+    "price": 210.6,
+    "purchaseDate": "07-15-2026",
+    "product": "Keyboard"
+  },
+  {
+    "transactionId": "T109",
+    "customerId": "C45",
+    "customerName": "Karthikeya P",
+    "price": 690.99,
+    "purchaseDate": "07-16-2026",
+    "product": "Lappy"
+  },
+  {
+    "transactionId": "T110",
+    "customerId": "C10",
+    "customerName": "Gayathri Nandam",
+    "price": 145.8,
+    "purchaseDate": "07-17-2026",
+    "product": "Bag"
+  },
+  {
+    "transactionId": "T111",
+    "customerId": "C46",
+    "customerName": "Likitha Devi",
+    "price": 72.45,
+    "purchaseDate": "07-18-2026",
+    "product": "Charger"
+  },
 
-{ "transactionId":"T112","customerId":"C47","customerName":"Manoj Kumar","price":355.65,"purchaseDate":"07-19-2026","product":"Mouse" },
-{ "transactionId":"T113","customerId":"C48","customerName":"Navya Sri","price":430.50,"purchaseDate":"07-20-2026","product":"Mobile" },
-{ "transactionId":"T114","customerId":"C4","customerName":"Shreyansh K","price":175.40,"purchaseDate":"07-21-2026","product":"Keyboard" },
-{ "transactionId":"T115","customerId":"C49","customerName":"Omkar Nath","price":910.20,"purchaseDate":"07-22-2026","product":"Lappy" },
-{ "transactionId":"T116","customerId":"C50","customerName":"Pavani Lakshmi","price":132.90,"purchaseDate":"07-23-2026","product":"Bag" },
-{ "transactionId":"T117","customerId":"C13","customerName":"Lally V","price":82.10,"purchaseDate":"07-24-2026","product":"Charger" },
+  {
+    "transactionId": "T112",
+    "customerId": "C47",
+    "customerName": "Manoj Kumar",
+    "price": 355.65,
+    "purchaseDate": "07-19-2026",
+    "product": "Mouse"
+  },
+  {
+    "transactionId": "T113",
+    "customerId": "C48",
+    "customerName": "Navya Sri",
+    "price": 430.5,
+    "purchaseDate": "07-20-2026",
+    "product": "Mobile"
+  },
+  {
+    "transactionId": "T114",
+    "customerId": "C4",
+    "customerName": "Shreyansh K",
+    "price": 175.4,
+    "purchaseDate": "07-21-2026",
+    "product": "Keyboard"
+  },
+  {
+    "transactionId": "T115",
+    "customerId": "C49",
+    "customerName": "Omkar Nath",
+    "price": 910.2,
+    "purchaseDate": "07-22-2026",
+    "product": "Lappy"
+  },
+  {
+    "transactionId": "T116",
+    "customerId": "C50",
+    "customerName": "Pavani Lakshmi",
+    "price": 132.9,
+    "purchaseDate": "07-23-2026",
+    "product": "Bag"
+  },
+  {
+    "transactionId": "T117",
+    "customerId": "C13",
+    "customerName": "Lally V",
+    "price": 82.1,
+    "purchaseDate": "07-24-2026",
+    "product": "Charger"
+  },
 
-{ "transactionId":"T118","customerId":"C51","customerName":"Qasim Ali","price":278.45,"purchaseDate":"07-25-2026","product":"Mouse" },
-{ "transactionId":"T119","customerId":"C52","customerName":"Rithvik Sai","price":499.99,"purchaseDate":"07-26-2026","product":"Mobile" },
-{ "transactionId":"T120","customerId":"C53","customerName":"Sneha Chowdary","price":240.60,"purchaseDate":"07-27-2026","product":"Keyboard" },
-{ "transactionId":"T121","customerId":"C6","customerName":"Ravi L","price":780.75,"purchaseDate":"07-28-2026","product":"Lappy" },
-{ "transactionId":"T122","customerId":"C54","customerName":"Tarun Kumar","price":110.25,"purchaseDate":"07-29-2026","product":"Bag" },
-{ "transactionId":"T123","customerId":"C55","customerName":"Uma Devi","price":68.45,"purchaseDate":"07-30-2026","product":"Charger" },
-{ "transactionId":"T124","customerId":"C56","customerName":"Varun Teja","price":345.75,"purchaseDate":"08-01-2026","product":"Mouse" },
-{ "transactionId":"T125","customerId":"C57","customerName":"Waseem Akram","price":520.40,"purchaseDate":"08-02-2026","product":"Mobile" },
-{ "transactionId":"T126","customerId":"C58","customerName":"Xenia Paul","price":185.90,"purchaseDate":"08-03-2026","product":"Keyboard" },
-{ "transactionId":"T127","customerId":"C59","customerName":"Yamini Devi","price":845.60,"purchaseDate":"08-04-2026","product":"Lappy" },
+  {
+    "transactionId": "T118",
+    "customerId": "C51",
+    "customerName": "Qasim Ali",
+    "price": 278.45,
+    "purchaseDate": "07-25-2026",
+    "product": "Mouse"
+  },
+  {
+    "transactionId": "T119",
+    "customerId": "C52",
+    "customerName": "Rithvik Sai",
+    "price": 499.99,
+    "purchaseDate": "07-26-2026",
+    "product": "Mobile"
+  },
+  {
+    "transactionId": "T120",
+    "customerId": "C53",
+    "customerName": "Sneha Chowdary",
+    "price": 240.6,
+    "purchaseDate": "07-27-2026",
+    "product": "Keyboard"
+  },
+  {
+    "transactionId": "T121",
+    "customerId": "C6",
+    "customerName": "Ravi L",
+    "price": 780.75,
+    "purchaseDate": "07-28-2026",
+    "product": "Lappy"
+  },
+  {
+    "transactionId": "T122",
+    "customerId": "C54",
+    "customerName": "Tarun Kumar",
+    "price": 110.25,
+    "purchaseDate": "07-29-2026",
+    "product": "Bag"
+  },
+  {
+    "transactionId": "T123",
+    "customerId": "C55",
+    "customerName": "Uma Devi",
+    "price": 68.45,
+    "purchaseDate": "07-30-2026",
+    "product": "Charger"
+  },
+  {
+    "transactionId": "T124",
+    "customerId": "C56",
+    "customerName": "Varun Teja",
+    "price": 345.75,
+    "purchaseDate": "08-01-2026",
+    "product": "Mouse"
+  },
+  {
+    "transactionId": "T125",
+    "customerId": "C57",
+    "customerName": "Waseem Akram",
+    "price": 520.4,
+    "purchaseDate": "08-02-2026",
+    "product": "Mobile"
+  },
+  {
+    "transactionId": "T126",
+    "customerId": "C58",
+    "customerName": "Xenia Paul",
+    "price": 185.9,
+    "purchaseDate": "08-03-2026",
+    "product": "Keyboard"
+  },
+  {
+    "transactionId": "T127",
+    "customerId": "C59",
+    "customerName": "Yamini Devi",
+    "price": 845.6,
+    "purchaseDate": "08-04-2026",
+    "product": "Lappy"
+  },
 
-{ "transactionId":"T128","customerId":"C60","customerName":"Zubair Khan","price":130.45,"purchaseDate":"08-05-2026","product":"Bag" },
-{ "transactionId":"T129","customerId":"C61","customerName":"Akhil Raj","price":72.20,"purchaseDate":"08-06-2026","product":"Charger" },
-{ "transactionId":"T130","customerId":"C62","customerName":"Bhanu Priya","price":295.50,"purchaseDate":"08-07-2026","product":"Mouse" },
-{ "transactionId":"T131","customerId":"C63","customerName":"Chandu Varma","price":470.80,"purchaseDate":"08-08-2026","product":"Mobile" },
-{ "transactionId":"T132","customerId":"C64","customerName":"Divya Sri","price":210.30,"purchaseDate":"08-09-2026","product":"Keyboard" },
-{ "transactionId":"T133","customerId":"C65","customerName":"Eshwar Reddy","price":920.90,"purchaseDate":"08-10-2026","product":"Lappy" },
+  {
+    "transactionId": "T128",
+    "customerId": "C60",
+    "customerName": "Zubair Khan",
+    "price": 130.45,
+    "purchaseDate": "08-05-2026",
+    "product": "Bag"
+  },
+  {
+    "transactionId": "T129",
+    "customerId": "C61",
+    "customerName": "Akhil Raj",
+    "price": 72.2,
+    "purchaseDate": "08-06-2026",
+    "product": "Charger"
+  },
+  {
+    "transactionId": "T130",
+    "customerId": "C62",
+    "customerName": "Bhanu Priya",
+    "price": 295.5,
+    "purchaseDate": "08-07-2026",
+    "product": "Mouse"
+  },
+  {
+    "transactionId": "T131",
+    "customerId": "C63",
+    "customerName": "Chandu Varma",
+    "price": 470.8,
+    "purchaseDate": "08-08-2026",
+    "product": "Mobile"
+  },
+  {
+    "transactionId": "T132",
+    "customerId": "C64",
+    "customerName": "Divya Sri",
+    "price": 210.3,
+    "purchaseDate": "08-09-2026",
+    "product": "Keyboard"
+  },
+  {
+    "transactionId": "T133",
+    "customerId": "C65",
+    "customerName": "Eshwar Reddy",
+    "price": 920.9,
+    "purchaseDate": "08-10-2026",
+    "product": "Lappy"
+  },
 
-{ "transactionId":"T134","customerId":"C66","customerName":"Farooq Ali","price":145.75,"purchaseDate":"08-11-2026","product":"Bag" },
-{ "transactionId":"T135","customerId":"C67","customerName":"Geetha Kumari","price":88.45,"purchaseDate":"08-12-2026","product":"Charger" },
-{ "transactionId":"T136","customerId":"C68","customerName":"Hari Krishna","price":355.60,"purchaseDate":"08-13-2026","product":"Mouse" },
-{ "transactionId":"T137","customerId":"C69","customerName":"Irfan Shaik","price":490.25,"purchaseDate":"08-14-2026","product":"Mobile" },
-{ "transactionId":"T138","customerId":"C70","customerName":"Jyothi Lakshmi","price":230.10,"purchaseDate":"08-15-2026","product":"Keyboard" },
-{ "transactionId":"T139","customerId":"C71","customerName":"Kiranmayi","price":760.45,"purchaseDate":"08-16-2026","product":"Lappy" },
+  {
+    "transactionId": "T134",
+    "customerId": "C66",
+    "customerName": "Farooq Ali",
+    "price": 145.75,
+    "purchaseDate": "08-11-2026",
+    "product": "Bag"
+  },
+  {
+    "transactionId": "T135",
+    "customerId": "C67",
+    "customerName": "Geetha Kumari",
+    "price": 88.45,
+    "purchaseDate": "08-12-2026",
+    "product": "Charger"
+  },
+  {
+    "transactionId": "T136",
+    "customerId": "C68",
+    "customerName": "Hari Krishna",
+    "price": 355.6,
+    "purchaseDate": "08-13-2026",
+    "product": "Mouse"
+  },
+  {
+    "transactionId": "T137",
+    "customerId": "C69",
+    "customerName": "Irfan Shaik",
+    "price": 490.25,
+    "purchaseDate": "08-14-2026",
+    "product": "Mobile"
+  },
+  {
+    "transactionId": "T138",
+    "customerId": "C70",
+    "customerName": "Jyothi Lakshmi",
+    "price": 230.1,
+    "purchaseDate": "08-15-2026",
+    "product": "Keyboard"
+  },
+  {
+    "transactionId": "T139",
+    "customerId": "C71",
+    "customerName": "Kiranmayi",
+    "price": 760.45,
+    "purchaseDate": "08-16-2026",
+    "product": "Lappy"
+  },
 
-{ "transactionId":"T140","customerId":"C72","customerName":"Loknath Sai","price":165.80,"purchaseDate":"08-17-2026","product":"Bag" },
-{ "transactionId":"T141","customerId":"C73","customerName":"Mounika Devi","price":92.50,"purchaseDate":"08-18-2026","product":"Charger" },
-{ "transactionId":"T142","customerId":"C74","customerName":"Nikhil Varma","price":315.25,"purchaseDate":"08-19-2026","product":"Mouse" },
-{ "transactionId":"T143","customerId":"C75","customerName":"Ojaswini R","price":540.60,"purchaseDate":"08-20-2026","product":"Mobile" },
-{ "transactionId":"T144","customerId":"C76","customerName":"Pradeep Kumar","price":220.75,"purchaseDate":"08-21-2026","product":"Keyboard" },
-{ "transactionId":"T145","customerId":"C77","customerName":"Qudrat Ali","price":880.20,"purchaseDate":"08-22-2026","product":"Lappy" },
-{ "transactionId":"T146","customerId":"C78","customerName":"Rachana Devi","price":150.45,"purchaseDate":"08-23-2026","product":"Bag" },
-{ "transactionId":"T147","customerId":"C79","customerName":"Sairam Krishna","price":85.30,"purchaseDate":"08-24-2026","product":"Charger" },
-{ "transactionId":"T148","customerId":"C80","customerName":"Teja Kumar","price":340.75,"purchaseDate":"08-25-2026","product":"Mouse" },
-{ "transactionId":"T149","customerId":"C81","customerName":"Usha Priya","price":510.20,"purchaseDate":"08-26-2026","product":"Mobile" },
-{ "transactionId":"T150","customerId":"C82","customerName":"Venkatesh Rao","price":240.90,"purchaseDate":"08-27-2026","product":"Keyboard" },
-{ "transactionId":"T151","customerId":"C83","customerName":"Wasim Khan","price":940.60,"purchaseDate":"08-28-2026","product":"Lappy" },
+  {
+    "transactionId": "T140",
+    "customerId": "C72",
+    "customerName": "Loknath Sai",
+    "price": 165.8,
+    "purchaseDate": "08-17-2026",
+    "product": "Bag"
+  },
+  {
+    "transactionId": "T141",
+    "customerId": "C73",
+    "customerName": "Mounika Devi",
+    "price": 92.5,
+    "purchaseDate": "08-18-2026",
+    "product": "Charger"
+  },
+  {
+    "transactionId": "T142",
+    "customerId": "C74",
+    "customerName": "Nikhil Varma",
+    "price": 315.25,
+    "purchaseDate": "08-19-2026",
+    "product": "Mouse"
+  },
+  {
+    "transactionId": "T143",
+    "customerId": "C75",
+    "customerName": "Ojaswini R",
+    "price": 540.6,
+    "purchaseDate": "08-20-2026",
+    "product": "Mobile"
+  },
+  {
+    "transactionId": "T144",
+    "customerId": "C76",
+    "customerName": "Pradeep Kumar",
+    "price": 220.75,
+    "purchaseDate": "08-21-2026",
+    "product": "Keyboard"
+  },
+  {
+    "transactionId": "T145",
+    "customerId": "C77",
+    "customerName": "Qudrat Ali",
+    "price": 880.2,
+    "purchaseDate": "08-22-2026",
+    "product": "Lappy"
+  },
+  {
+    "transactionId": "T146",
+    "customerId": "C78",
+    "customerName": "Rachana Devi",
+    "price": 150.45,
+    "purchaseDate": "08-23-2026",
+    "product": "Bag"
+  },
+  {
+    "transactionId": "T147",
+    "customerId": "C79",
+    "customerName": "Sairam Krishna",
+    "price": 85.3,
+    "purchaseDate": "08-24-2026",
+    "product": "Charger"
+  },
+  {
+    "transactionId": "T148",
+    "customerId": "C80",
+    "customerName": "Teja Kumar",
+    "price": 340.75,
+    "purchaseDate": "08-25-2026",
+    "product": "Mouse"
+  },
+  {
+    "transactionId": "T149",
+    "customerId": "C81",
+    "customerName": "Usha Priya",
+    "price": 510.2,
+    "purchaseDate": "08-26-2026",
+    "product": "Mobile"
+  },
+  {
+    "transactionId": "T150",
+    "customerId": "C82",
+    "customerName": "Venkatesh Rao",
+    "price": 240.9,
+    "purchaseDate": "08-27-2026",
+    "product": "Keyboard"
+  },
+  {
+    "transactionId": "T151",
+    "customerId": "C83",
+    "customerName": "Wasim Khan",
+    "price": 940.6,
+    "purchaseDate": "08-28-2026",
+    "product": "Lappy"
+  },
 
-{ "transactionId":"T152","customerId":"C84","customerName":"Xavier Reddy","price":170.40,"purchaseDate":"08-29-2026","product":"Bag" },
-{ "transactionId":"T153","customerId":"C85","customerName":"Yashika Sri","price":92.75,"purchaseDate":"08-30-2026","product":"Charger" },
-{ "transactionId":"T154","customerId":"C86","customerName":"Zarina Begum","price":355.10,"purchaseDate":"08-31-2026","product":"Mouse" },
-{ "transactionId":"T155","customerId":"C87","customerName":"Abhishek Varma","price":495.25,"purchaseDate":"09-01-2026","product":"Mobile" },
-{ "transactionId":"T156","customerId":"C88","customerName":"Bhavana R","price":210.55,"purchaseDate":"09-02-2026","product":"Keyboard" },
-{ "transactionId":"T157","customerId":"C89","customerName":"Chiranjeevi Sai","price":870.90,"purchaseDate":"09-03-2026","product":"Lappy" },
+  {
+    "transactionId": "T152",
+    "customerId": "C84",
+    "customerName": "Xavier Reddy",
+    "price": 170.4,
+    "purchaseDate": "08-29-2026",
+    "product": "Bag"
+  },
+  {
+    "transactionId": "T153",
+    "customerId": "C85",
+    "customerName": "Yashika Sri",
+    "price": 92.75,
+    "purchaseDate": "08-30-2026",
+    "product": "Charger"
+  },
+  {
+    "transactionId": "T154",
+    "customerId": "C86",
+    "customerName": "Zarina Begum",
+    "price": 355.1,
+    "purchaseDate": "08-31-2026",
+    "product": "Mouse"
+  },
+  {
+    "transactionId": "T155",
+    "customerId": "C87",
+    "customerName": "Abhishek Varma",
+    "price": 495.25,
+    "purchaseDate": "09-01-2026",
+    "product": "Mobile"
+  },
+  {
+    "transactionId": "T156",
+    "customerId": "C88",
+    "customerName": "Bhavana R",
+    "price": 210.55,
+    "purchaseDate": "09-02-2026",
+    "product": "Keyboard"
+  },
+  {
+    "transactionId": "T157",
+    "customerId": "C89",
+    "customerName": "Chiranjeevi Sai",
+    "price": 870.9,
+    "purchaseDate": "09-03-2026",
+    "product": "Lappy"
+  },
 
-{ "transactionId":"T158","customerId":"C90","customerName":"Dinesh Kumar","price":140.25,"purchaseDate":"09-04-2026","product":"Bag" },
-{ "transactionId":"T159","customerId":"C91","customerName":"Eesha Lakshmi","price":76.60,"purchaseDate":"09-05-2026","product":"Charger" },
-{ "transactionId":"T160","customerId":"C92","customerName":"Faizan Ali","price":320.40,"purchaseDate":"09-06-2026","product":"Mouse" },
-{ "transactionId":"T161","customerId":"C93","customerName":"Gowthami Devi","price":540.75,"purchaseDate":"09-07-2026","product":"Mobile" },
-{ "transactionId":"T162","customerId":"C94","customerName":"Harish Teja","price":230.20,"purchaseDate":"09-08-2026","product":"Keyboard" },
-{ "transactionId":"T163","customerId":"C95","customerName":"Ishaan Reddy","price":920.45,"purchaseDate":"09-09-2026","product":"Lappy" },
+  {
+    "transactionId": "T158",
+    "customerId": "C90",
+    "customerName": "Dinesh Kumar",
+    "price": 140.25,
+    "purchaseDate": "09-04-2026",
+    "product": "Bag"
+  },
+  {
+    "transactionId": "T159",
+    "customerId": "C91",
+    "customerName": "Eesha Lakshmi",
+    "price": 76.6,
+    "purchaseDate": "09-05-2026",
+    "product": "Charger"
+  },
+  {
+    "transactionId": "T160",
+    "customerId": "C92",
+    "customerName": "Faizan Ali",
+    "price": 320.4,
+    "purchaseDate": "09-06-2026",
+    "product": "Mouse"
+  },
+  {
+    "transactionId": "T161",
+    "customerId": "C93",
+    "customerName": "Gowthami Devi",
+    "price": 540.75,
+    "purchaseDate": "09-07-2026",
+    "product": "Mobile"
+  },
+  {
+    "transactionId": "T162",
+    "customerId": "C94",
+    "customerName": "Harish Teja",
+    "price": 230.2,
+    "purchaseDate": "09-08-2026",
+    "product": "Keyboard"
+  },
+  {
+    "transactionId": "T163",
+    "customerId": "C95",
+    "customerName": "Ishaan Reddy",
+    "price": 920.45,
+    "purchaseDate": "09-09-2026",
+    "product": "Lappy"
+  },
 
-{ "transactionId":"T164","customerId":"C96","customerName":"Janani Priya","price":165.75,"purchaseDate":"09-10-2026","product":"Bag" },
-{ "transactionId":"T165","customerId":"C97","customerName":"Kalyan Kumar","price":88.10,"purchaseDate":"09-11-2026","product":"Charger" },
-{ "transactionId":"T166","customerId":"C98","customerName":"Lavanya Sri","price":375.50,"purchaseDate":"09-12-2026","product":"Mouse" },
-{ "transactionId":"T167","customerId":"C99","customerName":"Madhav Varma","price":499.99,"purchaseDate":"09-13-2026","product":"Mobile" },
-{ "transactionId":"T168","customerId":"C100","customerName":"Nanditha Rao","price":255.40,"purchaseDate":"09-14-2026","product":"Keyboard" },
-{ "transactionId":"T169","customerId":"C101","customerName":"Om Sai Krishna","price":810.30,"purchaseDate":"09-15-2026","product":"Lappy" },
+  {
+    "transactionId": "T164",
+    "customerId": "C96",
+    "customerName": "Janani Priya",
+    "price": 165.75,
+    "purchaseDate": "09-10-2026",
+    "product": "Bag"
+  },
+  {
+    "transactionId": "T165",
+    "customerId": "C97",
+    "customerName": "Kalyan Kumar",
+    "price": 88.1,
+    "purchaseDate": "09-11-2026",
+    "product": "Charger"
+  },
+  {
+    "transactionId": "T166",
+    "customerId": "C98",
+    "customerName": "Lavanya Sri",
+    "price": 375.5,
+    "purchaseDate": "09-12-2026",
+    "product": "Mouse"
+  },
+  {
+    "transactionId": "T167",
+    "customerId": "C99",
+    "customerName": "Madhav Varma",
+    "price": 499.99,
+    "purchaseDate": "09-13-2026",
+    "product": "Mobile"
+  },
+  {
+    "transactionId": "T168",
+    "customerId": "C100",
+    "customerName": "Nanditha Rao",
+    "price": 255.4,
+    "purchaseDate": "09-14-2026",
+    "product": "Keyboard"
+  },
+  {
+    "transactionId": "T169",
+    "customerId": "C101",
+    "customerName": "Om Sai Krishna",
+    "price": 810.3,
+    "purchaseDate": "09-15-2026",
+    "product": "Lappy"
+  },
 
-{ "transactionId":"T170","customerId":"C5","customerName":"Aadhya K","price":135.90,"purchaseDate":"09-16-2026","product":"Bag" },
-{ "transactionId":"T171","customerId":"C12","customerName":"Shailu Bekkem","price":69.45,"purchaseDate":"09-17-2026","product":"Charger" },
-{ "transactionId":"T172","customerId":"C25","customerName":"Indu Priya","price":280.75,"purchaseDate":"09-18-2026","product":"Mouse" },
-{ "transactionId":"T173","customerId":"C40","customerName":"Fathima Noor","price":450.20,"purchaseDate":"09-19-2026","product":"Mobile" },
-{ "transactionId":"T174","customerId":"C60","customerName":"Zubair Khan","price":220.80,"purchaseDate":"09-20-2026","product":"Keyboard" },
-{ "transactionId":"T175","customerId":"C78","customerName":"Rachana Devi","price":799.60,"purchaseDate":"09-21-2026","product":"Lappy" },
-{ "transactionId":"T176","customerId":"C102","customerName":"Poojitha Reddy","price":145.80,"purchaseDate":"09-22-2026","product":"Bag" },
-{ "transactionId":"T177","customerId":"C103","customerName":"Rahul Sai","price":82.40,"purchaseDate":"09-23-2026","product":"Charger" },
-{ "transactionId":"T178","customerId":"C104","customerName":"Snehalatha Devi","price":365.25,"purchaseDate":"09-24-2026","product":"Mouse" },
-{ "transactionId":"T179","customerId":"C105","customerName":"Tarak Varma","price":510.90,"purchaseDate":"09-25-2026","product":"Mobile" },
-{ "transactionId":"T180","customerId":"C106","customerName":"Uday Sai Krishna","price":240.55,"purchaseDate":"09-26-2026","product":"Keyboard" },
-{ "transactionId":"T181","customerId":"C107","customerName":"Vaibhav Reddy","price":920.40,"purchaseDate":"09-27-2026","product":"Lappy" },
+  {
+    "transactionId": "T170",
+    "customerId": "C5",
+    "customerName": "Aadhya K",
+    "price": 135.9,
+    "purchaseDate": "09-16-2026",
+    "product": "Bag"
+  },
+  {
+    "transactionId": "T171",
+    "customerId": "C12",
+    "customerName": "Shailu Bekkem",
+    "price": 69.45,
+    "purchaseDate": "09-17-2026",
+    "product": "Charger"
+  },
+  {
+    "transactionId": "T172",
+    "customerId": "C25",
+    "customerName": "Indu Priya",
+    "price": 280.75,
+    "purchaseDate": "09-18-2026",
+    "product": "Mouse"
+  },
+  {
+    "transactionId": "T173",
+    "customerId": "C40",
+    "customerName": "Fathima Noor",
+    "price": 450.2,
+    "purchaseDate": "09-19-2026",
+    "product": "Mobile"
+  },
+  {
+    "transactionId": "T174",
+    "customerId": "C60",
+    "customerName": "Zubair Khan",
+    "price": 220.8,
+    "purchaseDate": "09-20-2026",
+    "product": "Keyboard"
+  },
+  {
+    "transactionId": "T175",
+    "customerId": "C78",
+    "customerName": "Rachana Devi",
+    "price": 799.6,
+    "purchaseDate": "09-21-2026",
+    "product": "Lappy"
+  },
+  {
+    "transactionId": "T176",
+    "customerId": "C102",
+    "customerName": "Poojitha Reddy",
+    "price": 145.8,
+    "purchaseDate": "09-22-2026",
+    "product": "Bag"
+  },
+  {
+    "transactionId": "T177",
+    "customerId": "C103",
+    "customerName": "Rahul Sai",
+    "price": 82.4,
+    "purchaseDate": "09-23-2026",
+    "product": "Charger"
+  },
+  {
+    "transactionId": "T178",
+    "customerId": "C104",
+    "customerName": "Snehalatha Devi",
+    "price": 365.25,
+    "purchaseDate": "09-24-2026",
+    "product": "Mouse"
+  },
+  {
+    "transactionId": "T179",
+    "customerId": "C105",
+    "customerName": "Tarak Varma",
+    "price": 510.9,
+    "purchaseDate": "09-25-2026",
+    "product": "Mobile"
+  },
+  {
+    "transactionId": "T180",
+    "customerId": "C106",
+    "customerName": "Uday Sai Krishna",
+    "price": 240.55,
+    "purchaseDate": "09-26-2026",
+    "product": "Keyboard"
+  },
+  {
+    "transactionId": "T181",
+    "customerId": "C107",
+    "customerName": "Vaibhav Reddy",
+    "price": 920.4,
+    "purchaseDate": "09-27-2026",
+    "product": "Lappy"
+  },
 
-{ "transactionId":"T182","customerId":"C108","customerName":"Wincy Priya","price":155.60,"purchaseDate":"09-28-2026","product":"Bag" },
-{ "transactionId":"T183","customerId":"C109","customerName":"Xavier Kumar","price":74.25,"purchaseDate":"09-29-2026","product":"Charger" },
-{ "transactionId":"T184","customerId":"C110","customerName":"Yogitha Sri","price":310.75,"purchaseDate":"09-30-2026","product":"Mouse" },
-{ "transactionId":"T185","customerId":"C111","customerName":"Zain Ali","price":470.45,"purchaseDate":"10-01-2026","product":"Mobile" },
-{ "transactionId":"T186","customerId":"C112","customerName":"Aravind Kumar","price":225.35,"purchaseDate":"10-02-2026","product":"Keyboard" },
-{ "transactionId":"T187","customerId":"C113","customerName":"Bhargavi Devi","price":845.99,"purchaseDate":"10-03-2026","product":"Lappy" },
+  {
+    "transactionId": "T182",
+    "customerId": "C108",
+    "customerName": "Wincy Priya",
+    "price": 155.6,
+    "purchaseDate": "09-28-2026",
+    "product": "Bag"
+  },
+  {
+    "transactionId": "T183",
+    "customerId": "C109",
+    "customerName": "Xavier Kumar",
+    "price": 74.25,
+    "purchaseDate": "09-29-2026",
+    "product": "Charger"
+  },
+  {
+    "transactionId": "T184",
+    "customerId": "C110",
+    "customerName": "Yogitha Sri",
+    "price": 310.75,
+    "purchaseDate": "09-30-2026",
+    "product": "Mouse"
+  },
+  {
+    "transactionId": "T185",
+    "customerId": "C111",
+    "customerName": "Zain Ali",
+    "price": 470.45,
+    "purchaseDate": "10-01-2026",
+    "product": "Mobile"
+  },
+  {
+    "transactionId": "T186",
+    "customerId": "C112",
+    "customerName": "Aravind Kumar",
+    "price": 225.35,
+    "purchaseDate": "10-02-2026",
+    "product": "Keyboard"
+  },
+  {
+    "transactionId": "T187",
+    "customerId": "C113",
+    "customerName": "Bhargavi Devi",
+    "price": 845.99,
+    "purchaseDate": "10-03-2026",
+    "product": "Lappy"
+  },
 
-{ "transactionId":"T188","customerId":"C114","customerName":"Chandan Reddy","price":165.80,"purchaseDate":"10-04-2026","product":"Bag" },
-{ "transactionId":"T189","customerId":"C115","customerName":"Divyansh Teja","price":90.50,"purchaseDate":"10-05-2026","product":"Charger" },
-{ "transactionId":"T190","customerId":"C116","customerName":"Eesha Varma","price":355.45,"purchaseDate":"10-06-2026","product":"Mouse" },
-{ "transactionId":"T191","customerId":"C117","customerName":"Farhan Ahmed","price":540.10,"purchaseDate":"10-07-2026","product":"Mobile" },
-{ "transactionId":"T192","customerId":"C118","customerName":"Gauthami Lakshmi","price":245.75,"purchaseDate":"10-08-2026","product":"Keyboard" },
-{ "transactionId":"T193","customerId":"C119","customerName":"Harsha Vardhan","price":970.60,"purchaseDate":"10-09-2026","product":"Lappy" },
+  {
+    "transactionId": "T188",
+    "customerId": "C114",
+    "customerName": "Chandan Reddy",
+    "price": 165.8,
+    "purchaseDate": "10-04-2026",
+    "product": "Bag"
+  },
+  {
+    "transactionId": "T189",
+    "customerId": "C115",
+    "customerName": "Divyansh Teja",
+    "price": 90.5,
+    "purchaseDate": "10-05-2026",
+    "product": "Charger"
+  },
+  {
+    "transactionId": "T190",
+    "customerId": "C116",
+    "customerName": "Eesha Varma",
+    "price": 355.45,
+    "purchaseDate": "10-06-2026",
+    "product": "Mouse"
+  },
+  {
+    "transactionId": "T191",
+    "customerId": "C117",
+    "customerName": "Farhan Ahmed",
+    "price": 540.1,
+    "purchaseDate": "10-07-2026",
+    "product": "Mobile"
+  },
+  {
+    "transactionId": "T192",
+    "customerId": "C118",
+    "customerName": "Gauthami Lakshmi",
+    "price": 245.75,
+    "purchaseDate": "10-08-2026",
+    "product": "Keyboard"
+  },
+  {
+    "transactionId": "T193",
+    "customerId": "C119",
+    "customerName": "Harsha Vardhan",
+    "price": 970.6,
+    "purchaseDate": "10-09-2026",
+    "product": "Lappy"
+  },
 
-{ "transactionId":"T194","customerId":"C120","customerName":"Ibrahim Khan","price":150.25,"purchaseDate":"10-10-2026","product":"Bag" },
-{ "transactionId":"T195","customerId":"C121","customerName":"Jhansi Priya","price":78.45,"purchaseDate":"10-11-2026","product":"Charger" },
-{ "transactionId":"T196","customerId":"C122","customerName":"Koushik Sai","price":385.90,"purchaseDate":"10-12-2026","product":"Mouse" },
-{ "transactionId":"T197","customerId":"C123","customerName":"Likitha Reddy","price":499.75,"purchaseDate":"10-13-2026","product":"Mobile" },
-{ "transactionId":"T198","customerId":"C124","customerName":"Mohith Krishna","price":230.45,"purchaseDate":"10-14-2026","product":"Keyboard" },
-{ "transactionId":"T199","customerId":"C125","customerName":"Niharika Devi","price":890.55,"purchaseDate":"10-15-2026","product":"Lappy" },
+  {
+    "transactionId": "T194",
+    "customerId": "C120",
+    "customerName": "Ibrahim Khan",
+    "price": 150.25,
+    "purchaseDate": "10-10-2026",
+    "product": "Bag"
+  },
+  {
+    "transactionId": "T195",
+    "customerId": "C121",
+    "customerName": "Jhansi Priya",
+    "price": 78.45,
+    "purchaseDate": "10-11-2026",
+    "product": "Charger"
+  },
+  {
+    "transactionId": "T196",
+    "customerId": "C122",
+    "customerName": "Koushik Sai",
+    "price": 385.9,
+    "purchaseDate": "10-12-2026",
+    "product": "Mouse"
+  },
+  {
+    "transactionId": "T197",
+    "customerId": "C123",
+    "customerName": "Likitha Reddy",
+    "price": 499.75,
+    "purchaseDate": "10-13-2026",
+    "product": "Mobile"
+  },
+  {
+    "transactionId": "T198",
+    "customerId": "C124",
+    "customerName": "Mohith Krishna",
+    "price": 230.45,
+    "purchaseDate": "10-14-2026",
+    "product": "Keyboard"
+  },
+  {
+    "transactionId": "T199",
+    "customerId": "C125",
+    "customerName": "Niharika Devi",
+    "price": 890.55,
+    "purchaseDate": "10-15-2026",
+    "product": "Lappy"
+  },
 
-{ "transactionId":"T200","customerId":"C126","customerName":"Omkar Reddy","price":175.30,"purchaseDate":"10-16-2026","product":"Bag" }
-
-      ]
+  {
+    "transactionId": "T200",
+    "customerId": "C126",
+    "customerName": "Omkar Reddy",
+    "price": 175.3,
+    "purchaseDate": "10-16-2026",
+    "product": "Bag"
+  }
+]

@@ -1,4 +1,3 @@
-
 import { useEffect, useState } from "react";
 import { fetchTransactions } from "../services/api";
 import { calculateRewardPoints } from "../utils/calculatePoints";
@@ -7,39 +6,40 @@ import logger from "../utils/logger";
 
 export const useRewardsData = () => {
   const [rewardsData, setRewardsData] = useState({
-    transactions:[],
+    transactions: [],
     loading: false,
-    errorMessage:null
+    errorMessage: null
   });
 
   useEffect(() => {
     const loadTransactions = async () => {
-      setRewardsData(prev=> ({
+      setRewardsData((prev) => ({
         ...prev,
         loading: true,
         errorMessage: null
       }));
-      try{
+      try {
         logger.info("Fetching transactions...");
-      const data = await fetchTransactions();
-      const transactions = data.map(item => ({
-        ...item,
-        rewardPoints: calculateRewardPoints(item.price),
-        ...enrichDate(item.purchaseDate)
-      }));
-      logger.info("Transactions processed successfully", transactions);
-      setRewardsData({
-        transactions,
-        loading: false,
-        errorMessage: null
-      });
-    } catch(error){
-      logger.error("Error in useRewardsData hook", error);
-      setRewardsData({
-          transactions:[],
-          loading: false, 
-          errorMessage: error.message })
-        }
+        const data = await fetchTransactions();
+        const transactions = data.map((item) => ({
+          ...item,
+          rewardPoints: calculateRewardPoints(item.price),
+          ...enrichDate(item.purchaseDate)
+        }));
+        logger.info("Transactions processed successfully", transactions);
+        setRewardsData({
+          transactions,
+          loading: false,
+          errorMessage: null
+        });
+      } catch (error) {
+        logger.error("Error in useRewardsData hook", error);
+        setRewardsData({
+          transactions: [],
+          loading: false,
+          errorMessage: error.message
+        });
+      }
     };
     loadTransactions();
   }, []);

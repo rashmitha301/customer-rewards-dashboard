@@ -9,7 +9,7 @@ export default function Loader() {
       alignItems="center"
       height="60vh"
     >
-     <CircularProgress aria-label="loading" size={50}/> 
+      <CircularProgress aria-label="loading" size={50} />
     </Box>
   );
 }

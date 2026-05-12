@@ -1,13 +1,25 @@
 import React, { useState, useMemo, useEffect } from "react";
 import PropTypes from "prop-types";
 import {
-  Table, TableBody, TableCell, TableContainer,
-  TableHead, TableRow, Paper, Typography
+  Table,
+  TableBody,
+  TableCell,
+  TableContainer,
+  TableHead,
+  TableRow,
+  Paper,
+  Typography
 } from "@mui/material";
 import TablePagination from "@mui/material/TablePagination";
 import TableSortLabel from "@mui/material/TableSortLabel";
 
-function CommonTable({ title, columns = [], data = [], keyField, rowsPerPage = 10 }) {
+function CommonTable({
+  title,
+  columns = [],
+  data = [],
+  keyField,
+  rowsPerPage = 10
+}) {
   const [page, setPage] = useState(0);
   const [orderBy, setOrderBy] = useState("");
   const [order, setOrder] = useState("asc");
@@ -105,7 +117,7 @@ function CommonTable({ title, columns = [], data = [], keyField, rowsPerPage = 1
                   <TableCell key={col.field}>
                     {col.field === "price"
                       ? Number(row[col.field]).toFixed(2)
-                      : row[col.field] ?? "-"}
+                      : (row[col.field] ?? "-")}
                   </TableCell>
                 ))}
               </TableRow>
@@ -128,7 +140,6 @@ function CommonTable({ title, columns = [], data = [], keyField, rowsPerPage = 1
 
 CommonTable.propTypes = {
   title: PropTypes.string.isRequired,
-
   columns: PropTypes.arrayOf(
     PropTypes.shape({
       field: PropTypes.string.isRequired,
@@ -136,11 +147,8 @@ CommonTable.propTypes = {
       isSortable: PropTypes.bool
     })
   ),
-
   data: PropTypes.arrayOf(PropTypes.object),
-
   keyField: PropTypes.func.isRequired,
-
   rowsPerPage: PropTypes.number
 };
 

@@ -7,9 +7,7 @@ const mockColumns = [
   { field: "amount", header: "Amount" }
 ];
 
-const mockData = [
-  { name: "Rashmitha", amount: 100 }
-];
+const mockData = [{ name: "Rashmitha", amount: 100 }];
 
 describe("CommonTable", () => {
   it("renders table data correctly", () => {
